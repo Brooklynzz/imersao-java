@@ -29,7 +29,7 @@ public class StickersGen {
         graphics.drawString("TOPZERA",200, novaAltura - 100);
 
         // Escrever a imagem em um arquivo
-        ImageIO.write(novaImagem, "png", new File("media/saida/" + nomeArquivo + ".png"));
+        ImageIO.write(novaImagem, "png", new File("media/saida/" + nomeArquivo));
 
     }
 }
